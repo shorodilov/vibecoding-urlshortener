@@ -1,0 +1,32 @@
+# Virtual Environments and Environment Variables
+.venv/
+.env/
+.env
+.env.*
+!.env.example
+!.env.local
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Testing and Coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.coverage*
+coverage.xml
+
+# Local databases
+pgdata/
+*.sqlite
+*.db
+
+# Temporary and draft files storage
+/temp/
+/tmp/
