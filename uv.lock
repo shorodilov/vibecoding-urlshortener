@@ -992,6 +992,7 @@ migrations = [
 [package.dev-dependencies]
 dev = [
     { name = "alembic" },
+    { name = "httpx" },
     { name = "pytest" },
 ]
 
@@ -1007,6 +1008,7 @@ provides-extras = ["migrations"]
 [package.metadata.requires-dev]
 dev = [
     { name = "alembic" },
+    { name = "httpx", specifier = ">=0.28.1" },
     { name = "pytest" },
 ]
 
